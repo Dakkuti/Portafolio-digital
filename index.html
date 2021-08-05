@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <title>Portafolio digital</title>
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LOGO</a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link text-white" aria-current="page" href="#header">Hola</a>
+          <a class="nav-link text-white" href="#projects">Proyectos</a>
+          <a class="nav-link text-white" href="#testimonios">Testimonios</a>
+          <a class="nav-link text-white" href="#Contacto">Contacto</a>
+        </div>
+
+        
+      </div>
+      <button type="button" class="btn btn-warning" id="boton">Descargar curriculum</button>
+      
+    </div>
+  </nav>
+
+  <!--HEADER-->
+
+  <section class="header" id="header">
+    <div class="container">
+      <div class="row header">
+        <div class="col">
+          <img src="./assets/img.png">
+        </div>
+        <div class="col" id="welcome-section">
+          <h1>¡Hola a todos! <br> Soy Antonio Pereira</h1>
+          <p>Developer que le encanta implementar diseños que inspiran y atraen a las personas</p>
+          <a href="#projects"><img src="./assets/arrow-down.png" id="flecha"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--PROJECTS-->
+  <section id="projects">
+    <div class="container projects">
+      <div class="row projects">
+        <div class="col projects">
+          <h2 id="projects__title">Parece magia funciona con código.</h2>
+        </div>
+        <div class="col projects">
+          <p id="projects__p">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos
+            retadores e increíbles.</p>
+        </div>
+      </div>
+    </div>
+    <!--fin container projects-->
+
+    <div id="section__projects">
+      <img src="./assets/bg.png">
+      <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+          <h5 class="card-title">NIKO</h5>
+          <p class="card-text">Niko es una de las marcas y proveedores de equipamiento deportivo más reconocidas y
+            valiosas en todo el mundo.</p>
+          <a href="#" class="card-link" id="ver-proyecto">Ver proyecto completo</a>
+          <a href="#" class="card-link" id="ver-codigo">Ver código</a>
+        </div>
+      </div>
+      <!--fin card body-->
+
+      <!--IMAGENES DEL PROJECTS-->
+      <div class="imagenes">
+        <div class="cont1"><img src="./assets/bg2.png"></div>
+
+        <div class="card-body sectionTwo">
+          <h5 class="card-title sectionTwo ">Príncipe fresco</h5>
+          <p class="card-text sectionTwo">La serie está protagonizada por Will Smith como una versión ficticia de sí...
+          </p>
+          <a href="#" class="card-link" id="ver-proyecto">Ver proyecto completo</a>
+          <a href="#" class="card-link" id="ver-codigo">Ver código</a>
+        </div>
+
+        <div class="cont2"><img src="./assets/bg3.png"></div>
+
+
+        <div class="card-body sectionThree">
+          <h5 class="card-title sectionThree ">Amazonas</h5>
+          <p class="card-text sectionThree">Amazonas es la empresa en internet de venta al por menor más grande del...
+          </p>
+          <a href="#" class="card-link" id="ver-proyecto">Ver proyecto completo</a>
+          <a href="#" class="card-link" id="ver-codigo">Ver código</a>
+        </div>
+
+      </div>
+      <button class="button__section__projects">Ver más proyectos <img src="./assets/arrow-right2.png"></button>
+  </section>
+
+
+  <!--SERVICIOS-->
+  <section class="conten-servicios">
+    <h1>Servicios</h1>
+
+    <div class="list">
+      <ul class="list-group">
+        <h2>Diseño</h2>
+        <li class="list-group-item">Experiencia de usuario</li>
+        <li class="list-group-item">Interfaz de usuario</li>
+        <li class="list-group-item">Aplicaciones web</li>
+        <li class="list-group-item">Prueba de concepto</li>
+        <button id="list-group__button">Ver servicios de desarollo <img src="./assets/arrow-right.png"
+            id="img_list-button"></button>
+      </ul>
+
+      <ul class="list-group">
+        <h2>Desarrollo</h2>
+        <li class="list-group-item">Aplicaciones móviles</li>
+        <li class="list-group-item">Sitios web</li>
+        <li class="list-group-item">Aplicaciones web progresivas</li>
+        <button id="list-group__button">Ver servicios de desarollo <img src="./assets/arrow-right.png"
+            id="img_list-button"></button>
+      </ul>
+
+      <ul class="list-group">
+        <h2>Marca</h2>
+        <li class="list-group-item">Identidad de la marca</li>
+        <li class="list-group-item">Estrategia de marca</li>
+        <button id="list-group__button">Ver servicios de desarollo <img src="./assets/arrow-right.png"
+            id="img_list-button"></button>
+      </ul>
+
+    </div>
+  </section>
+
+  <!--TESTIMONIOS-->
+  <section class="content-testimonios" id="testimonios">
+
+    <h2>Testimonios</h2>
+    <div class="container testimonios">
+      <div class="row row-cols-3">
+        <div class="col testimonios">
+          <h3>Juan Antonio</h3>
+          <p>Tengo algunos años trabajando con Javascript y aún así aprendí varias cosas importantes de Antonio y como
+            utiliza Javascript en el día a día.</p>
+        </div>
+        <div class="col testimonios">
+          <h3>Albert Flores</h3>
+          <p>Me gusto ver el porqué de las cosas del core de React, saber la magia que ocurre por detrás, excelente
+            profesor Antonio
+            gran vocación.</p>
+        </div>
+        <div class="col testimonios">
+          <h3>Darlene Robertson</h3>
+          <p>Ayuda a entender el porqué de las cosas, lo cual nos da el poder de aprovechar mejor el lenguaje y las
+            herramientas que tenemos.</p>
+        </div>
+        <div class="col testimonios">
+          <h3>Jane Cooper</h3>
+          <p>La forma como explica y trabaja los temas Antonio, me ha ayudado a comprender y sacarle el mayor provecho a
+            HTML y CSS. </p>
+        </div>
+        <div class="col testimonios">
+          <h3>Eleanor Pena</h3>
+          <p>Antonio ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6
+            meses solo les llevó 1,5 meses.</p>
+        </div>
+        <div class="col testimonios">
+          <h3>Guy Hawkins</h3>
+          <p>Antonio ha superado mis expectativas desde el diseño hasta el desarrollo.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--IMAGEN-->
+
+  <img class="image" src="./assets/imgcontainer.png" alt="persona">
+
+  <!--CONTACTO-->
+  <div class="conten-contacto" id="Contacto">
+    <div class="contacto">
+      <h1>Contacto</h1>
+      <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto.</p>
+
+
+      <div class="mb-3">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Completo">
+        </div>
+        <div class="mb-3">
+  
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+      </div>
+
+      <button type="button" class="btn btn-warning">Enviar mensaje</button>
+    </div>
+  </div>
+
+<!--FOOTER-->
+<footer>
+  <h2 id="title-footer">Logo</h2>
+  <span>Hecho con 🤍 de Antonio. Copyright 2021 - Todos los derechos reservados.</span>
+  <ul>
+    <li><a href="#"><img src="./assets/icon-github.png" id="img-footer"></a></li>
+    <li><a href="#"><img src="./assets/icon-instagram.png" id="img-footer"></a></li>
+    <li><a href="#"><img src="./assets/icon-twitter_squared.png" id="img-footer"></a></li>
+  </ul>
+
+</footer>
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
